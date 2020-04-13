@@ -20,7 +20,7 @@ namespace SecondService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSingleton(s => new ConfigReader("SECONDSERVICE", "mongodb+srv://caner:Canercan11@firstcluster-j0uon.mongodb.net/test?retryWrites=true&w=majority", 20000));
+            services.AddSingleton(s => new ConfigReader("SECONDSERVICE", "", 20000));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
