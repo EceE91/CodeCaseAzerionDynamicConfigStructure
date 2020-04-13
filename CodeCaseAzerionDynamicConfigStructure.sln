@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCaseAzerionDynamicConfigStructure.UI", "CodeCaseAzerionDynamicConfigStructure.UI\CodeCaseAzerionDynamicConfigStructure.UI.csproj", "{EA0A583A-9789-4456-9494-045E447D215F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.DAL", "..\..\CodeCaseAzerionDynamicConfigStructure\CodeCaseAzerionDynamicConfigStructure.DAL\CodeCaseAzerionDynamicConfigStructure.DAL.csproj", "{B323211F-9E9A-4C98-93ED-95EAF16AFD27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.Model", "..\..\CodeCaseAzerionDynamicConfigStructure\CodeCaseAzerionDynamicConfigStructure.Model\CodeCaseAzerionDynamicConfigStructure.Model.csproj", "{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfiguratorLib", "..\..\CodeCaseAzerionDynamicConfigStructure\ConfiguratorLib\ConfiguratorLib.csproj", "{FC57002C-98B5-409F-BEC7-EAD8E05A313B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstService", "test\FirstService.csproj", "{B25FE5CC-EA03-494E-A930-14CD4A57ED87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondService", "SecondService\SecondService.csproj", "{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA0A583A-9789-4456-9494-045E447D215F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0A583A-9789-4456-9494-045E447D215F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0A583A-9789-4456-9494-045E447D215F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0A583A-9789-4456-9494-045E447D215F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25FE5CC-EA03-494E-A930-14CD4A57ED87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25FE5CC-EA03-494E-A930-14CD4A57ED87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25FE5CC-EA03-494E-A930-14CD4A57ED87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25FE5CC-EA03-494E-A930-14CD4A57ED87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEE86D77-0DCC-4D15-80AD-A3D4257D8D90}
+	EndGlobalSection
+EndGlobal
