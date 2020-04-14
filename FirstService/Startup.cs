@@ -21,7 +21,8 @@ namespace FirstService
         {
             services.AddControllersWithViews();
 
-            services.AddSingleton(s => new ConfigReader("FIRSTSERVICE", "", 30000));
+            string connectionString = this.Configuration.GetConnectionString("MongoDBConnectionString");
+            services.AddSingleton(s => new ConfigReader("SERVICE-A", connectionString, 20000));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

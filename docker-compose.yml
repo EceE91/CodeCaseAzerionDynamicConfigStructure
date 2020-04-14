@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  codecaseazeriondynamicconfigstructure.ui:
+    image: ${DOCKER_REGISTRY-}codecaseazeriondynamicconfigstructureui
+    build:
+      context: .
+      dockerfile: CodeCaseAzerionDynamicConfigStructure.UI\Dockerfile

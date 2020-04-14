@@ -20,7 +20,8 @@ namespace SecondService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSingleton(s => new ConfigReader("SECONDSERVICE", "", 20000));
+            string connectionString = this.Configuration.GetConnectionString("MongoDBConnectionString");
+            services.AddSingleton(s => new ConfigReader("SERVICE-B", connectionString, 20000));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -11,6 +11,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-sac2016 AS build
 WORKDIR /src
 COPY ["CodeCaseAzerionDynamicConfigStructure.UI/CodeCaseAzerionDynamicConfigStructure.UI.csproj", "CodeCaseAzerionDynamicConfigStructure.UI/"]
+COPY ["../../CodeCaseAzerionDynamicConfigStructure/CodeCaseAzerionDynamicConfigStructure.DAL/CodeCaseAzerionDynamicConfigStructure.DAL.csproj", "../../CodeCaseAzerionDynamicConfigStructure/CodeCaseAzerionDynamicConfigStructure.DAL/"]
+COPY ["../../CodeCaseAzerionDynamicConfigStructure/CodeCaseAzerionDynamicConfigStructure.Model/CodeCaseAzerionDynamicConfigStructure.Model.csproj", "../../CodeCaseAzerionDynamicConfigStructure/CodeCaseAzerionDynamicConfigStructure.Model/"]
 RUN dotnet restore "CodeCaseAzerionDynamicConfigStructure.UI/CodeCaseAzerionDynamicConfigStructure.UI.csproj"
 COPY . .
 WORKDIR "/src/CodeCaseAzerionDynamicConfigStructure.UI"
