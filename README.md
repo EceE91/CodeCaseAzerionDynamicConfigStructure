@@ -30,4 +30,4 @@ RefreshTimerIntervalInMs: Information about how often storage is checked.
 
 <p>CodeCaseAzerionDynamicConfigStructure.UI project is the driver project which contains views, controlers</p>
 
-<p>ConfiguratorLib project</p>
+<p>ConfigReader class in ConfiguratorLib project is derived from HostedService class, and it is enabled to fetch the data from storage in a predefined time by the time doing its normal tasks. Async workConfigReader class is derived from HostedService class, and it is enabled to fetch the data from storage in a predefined time by the time doing its normal tasks. Async work</p>
