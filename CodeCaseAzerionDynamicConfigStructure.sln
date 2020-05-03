@@ -5,12 +5,6 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.UI", "CodeCaseAzerionDynamicConfigStructure.UI\CodeCaseAzerionDynamicConfigStructure.UI.csproj", "{EA0A583A-9789-4456-9494-045E447D215F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.DAL", "..\..\CodeCaseAzerionDynamicConfigStructure\CodeCaseAzerionDynamicConfigStructure.DAL\CodeCaseAzerionDynamicConfigStructure.DAL.csproj", "{B323211F-9E9A-4C98-93ED-95EAF16AFD27}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.Model", "..\..\CodeCaseAzerionDynamicConfigStructure\CodeCaseAzerionDynamicConfigStructure.Model\CodeCaseAzerionDynamicConfigStructure.Model.csproj", "{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfiguratorLib", "..\..\CodeCaseAzerionDynamicConfigStructure\ConfiguratorLib\ConfiguratorLib.csproj", "{FC57002C-98B5-409F-BEC7-EAD8E05A313B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecondService", "SecondService\SecondService.csproj", "{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstService", "FirstService\FirstService.csproj", "{0818E124-B74E-4AAE-BC7D-7291BFFA45E5}"
@@ -18,6 +12,12 @@ EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5AB47FE6-1F9F-4B7F-BF46-40310F3FF1A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.UnitTest", "CodeCaseAzerionDynamicConfigStructure.UnitTest\CodeCaseAzerionDynamicConfigStructure.UnitTest.csproj", "{5567A7D5-C65F-46CA-BC34-831DC1613ECA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.Model", "CodeCaseAzerionDynamicConfigStructure.Model\CodeCaseAzerionDynamicConfigStructure.Model.csproj", "{2DD0069A-3991-420D-BCA7-B41212D232C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCaseAzerionDynamicConfigStructure.DAL", "CodeCaseAzerionDynamicConfigStructure.DAL\CodeCaseAzerionDynamicConfigStructure.DAL.csproj", "{4D269E50-D93F-45EA-9190-93144B85C91B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfiguratorLib", "ConfiguratorLib\ConfiguratorLib.csproj", "{815679F4-F993-44EC-B6DA-BF6E67459CEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,18 +29,6 @@ Global
 		{EA0A583A-9789-4456-9494-045E447D215F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA0A583A-9789-4456-9494-045E447D215F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA0A583A-9789-4456-9494-045E447D215F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B323211F-9E9A-4C98-93ED-95EAF16AFD27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{773BA6FC-E06F-4EBA-9471-7361CD7C1F18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC57002C-98B5-409F-BEC7-EAD8E05A313B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A752B6C-C9E3-4021-AE5F-36B8E56EE77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +45,18 @@ Global
 		{5567A7D5-C65F-46CA-BC34-831DC1613ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5567A7D5-C65F-46CA-BC34-831DC1613ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5567A7D5-C65F-46CA-BC34-831DC1613ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD0069A-3991-420D-BCA7-B41212D232C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD0069A-3991-420D-BCA7-B41212D232C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD0069A-3991-420D-BCA7-B41212D232C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD0069A-3991-420D-BCA7-B41212D232C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D269E50-D93F-45EA-9190-93144B85C91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D269E50-D93F-45EA-9190-93144B85C91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D269E50-D93F-45EA-9190-93144B85C91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D269E50-D93F-45EA-9190-93144B85C91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815679F4-F993-44EC-B6DA-BF6E67459CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815679F4-F993-44EC-B6DA-BF6E67459CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815679F4-F993-44EC-B6DA-BF6E67459CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815679F4-F993-44EC-B6DA-BF6E67459CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

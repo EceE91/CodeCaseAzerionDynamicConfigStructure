@@ -25,3 +25,5 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "CodeCaseAzerionDynamicConfigStructure.UI.dll"]
+
+dotnet publish CodeCaseAzerionDynamicConfigStructure.sln -c Release -o out

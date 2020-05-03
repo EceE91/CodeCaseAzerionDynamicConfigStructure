@@ -18,7 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CodeCaseAzerionDynamicConfigStructure.DAL\CodeCaseAzerionDynamicConfigStructure.DAL.csproj" />
+    <ProjectReference Include="..\CodeCaseAzerionDynamicConfigStructure.Model\CodeCaseAzerionDynamicConfigStructure.Model.csproj" />
     <ProjectReference Include="..\CodeCaseAzerionDynamicConfigStructure.UI\CodeCaseAzerionDynamicConfigStructure.UI.csproj" />
+    <ProjectReference Include="..\ConfiguratorLib\ConfiguratorLib.csproj" />
   </ItemGroup>
 
 </Project>

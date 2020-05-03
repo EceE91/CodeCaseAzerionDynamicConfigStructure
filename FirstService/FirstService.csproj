@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\CodeCaseAzerionDynamicConfigStructure\ConfiguratorLib\ConfiguratorLib.csproj" />
+    <ProjectReference Include="..\ConfiguratorLib\ConfiguratorLib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

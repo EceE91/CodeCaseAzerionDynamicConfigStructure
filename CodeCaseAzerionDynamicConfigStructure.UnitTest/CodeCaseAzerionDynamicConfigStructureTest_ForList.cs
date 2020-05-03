@@ -1,4 +1,5 @@
 ﻿using CodeCaseAzerionDynamicConfigStructure.DAL;
+using CodeCaseAzerionDynamicConfigStructure.Model;
 using CodeCaseAzerionDynamicConfigStructure.UI.Controllers;
 using Microsoft.Extensions.Logging;
 using Moq;

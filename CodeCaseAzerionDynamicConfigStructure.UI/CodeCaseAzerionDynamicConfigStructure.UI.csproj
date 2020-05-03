@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\CodeCaseAzerionDynamicConfigStructure\CodeCaseAzerionDynamicConfigStructure.DAL\CodeCaseAzerionDynamicConfigStructure.DAL.csproj" />
+    <ProjectReference Include="..\CodeCaseAzerionDynamicConfigStructure.DAL\CodeCaseAzerionDynamicConfigStructure.DAL.csproj" />
   </ItemGroup>
 
 
