@@ -14,6 +14,7 @@
         <li>RabbitMQ</li>
         <li>async / await</li>
         <li>Layered Architecture (Model-DAL-BL/UI)</li>
+	<li>CircleCI continious integration</li>
 	</ul>
 </p>
 
